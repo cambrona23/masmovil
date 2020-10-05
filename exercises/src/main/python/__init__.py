@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import sys
 class Persona:
         def __init__(self, nombre, edad):
             self.nombre = nombre
@@ -13,6 +14,9 @@ class Trabajador(Persona):
 
             self.departamento = departamento
             self.puesto = puesto
+        def presentation(self):
+            print(f"Hola! Soy {self.nombre} y tengo {self.edad} años")
+            print(f"Mi departamento es {self.departamento} y mi puesto es {self.puesto}")
 
-per1 = Trabajador("Alberto", 22, "RRHH", "Becario")
-per1.presentation()
+trabajador_1 = Trabajador("Alberto", 22, "RRHH", "Becario")
+trabajador_1.presentation()
