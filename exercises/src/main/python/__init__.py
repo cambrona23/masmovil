@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import sys
+
 class Persona:
         def __init__(self, nombre, edad): #la variable nombre contiene el valor que indiquemos al crear la instancia, una vez indicada en los parametros, perdemos su valor
             self.nombre = nombre #self.nombre contiene el valor que asignamos al crear la instancia al atributo nombre. Siempre estará accesible al acceder a los atributos de la instancia
