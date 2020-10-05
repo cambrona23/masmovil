@@ -9,7 +9,7 @@ class Persona:
                     print(f"Hola! Soy {self.nombre} y tengo {self.edad} años")
 
 class Trabajador(Persona):
-        def __init__(self, nombre, edad, departamento, puesto):
+        def __init__(self, nombre, edad, departamento = 'Data', puesto = 'Analist'):
             super(Trabajador, self).__init__(nombre, edad)
 
             self.departamento = departamento
