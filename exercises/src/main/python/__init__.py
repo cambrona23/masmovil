@@ -20,3 +20,7 @@ class Trabajador(Persona):
 
 trabajador_1 = Trabajador("Alberto", 22, "RRHH", "Becario")
 trabajador_1.presentation()
+
+my_var_list = ['Andrea', '42', 'Ventas', 'Manager']
+trabajador_2 = Trabajador(my_var_list[0], my_var_list[1], my_var_list[2], my_var_list[3])
+trabajador_2.presentation()
